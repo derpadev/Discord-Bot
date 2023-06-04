@@ -9,6 +9,8 @@ from apikeys import *
 
 bot = commands.Bot(command_prefix = '!', intents=discord.Intents.all())
 
+#lets the programmer know when the bot is up and running! 
+#the text will print in the TERMINAL
 @bot.event
 async def on_ready():
     print('The bot is ready to be used!')
