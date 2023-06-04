@@ -35,5 +35,5 @@ async def johny(ctx):
             file = discord.File(f)
             await ctx.send(file=file)
             
-#TOKEN is my discord bot token (unique to all bots). 
+#TOKEN variable from the OTHER python file (apikeys.py). 
 bot.run(TOKEN)
