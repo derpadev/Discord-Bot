@@ -4,7 +4,7 @@ from discord.ext import commands
 import os
 import random
 
-#Connects two python files together, one to hold THIS code and the other to hold my private APIS/TOKENS. 
+#imports the TOKEN variable from apikeys python file.  
 from apikeys import *
 
 bot = commands.Bot(command_prefix = '!', intents=discord.Intents.all())
